@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071EBCC9205A47850093680E /* SendConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071EBCC8205A47850093680E /* SendConfirmationViewController.swift */; };
+		071EBCCB205A82B30093680E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071EBCCA205A82B30093680E /* SettingsViewController.swift */; };
+		0751A1BE20611A27000AA6EB /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751A1BD20611A27000AA6EB /* ScanViewController.swift */; };
+		0784B048205934F600C2CE5C /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784B047205934F600C2CE5C /* WalletViewController.swift */; };
+		07939EFC204FE7D90070D737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07939EFB204FE7D90070D737 /* AppDelegate.swift */; };
+		07939F01204FE7D90070D737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07939EFF204FE7D90070D737 /* Main.storyboard */; };
+		07939F03204FE7D90070D737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07939F02204FE7D90070D737 /* Assets.xcassets */; };
+		07939F06204FE7D90070D737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07939F04204FE7D90070D737 /* LaunchScreen.storyboard */; };
+		07939F0E204FEC380070D737 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07939F0D204FEC380070D737 /* SignInViewController.swift */; };
+		07939F1020500CD40070D737 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07939F0F20500CD30070D737 /* SignUpViewController.swift */; };
+		07939F12205011B70070D737 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07939F11205011B70070D737 /* ForgotPasswordViewController.swift */; };
+		07D4B38A205BA62A001BE055 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4B388205BA62A001BE055 /* SWRevealViewController.m */; };
+		07D4B38C205BB96E001BE055 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4B38B205BB96E001BE055 /* SideMenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		071EBCC8205A47850093680E /* SendConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendConfirmationViewController.swift; sourceTree = "<group>"; };
+		071EBCCA205A82B30093680E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0751A1BD20611A27000AA6EB /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		0784B047205934F600C2CE5C /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		07939EF8204FE7D90070D737 /* Crypto Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07939EFB204FE7D90070D737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07939F00204FE7D90070D737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07939F02204FE7D90070D737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07939F05204FE7D90070D737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07939F07204FE7D90070D737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07939F0D204FEC380070D737 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		07939F0F20500CD30070D737 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		07939F11205011B70070D737 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		07D4B387205BA629001BE055 /* Crypto Wallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crypto Wallet-Bridging-Header.h"; sourceTree = "<group>"; };
+		07D4B388205BA62A001BE055 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		07D4B389205BA62A001BE055 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		07D4B38B205BB96E001BE055 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07939EF5204FE7D90070D737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07939EEF204FE7D90070D737 = {
+			isa = PBXGroup;
+			children = (
+				07939EFA204FE7D90070D737 /* Crypto Wallet */,
+				07939EF9204FE7D90070D737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07939EF9204FE7D90070D737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07939EF8204FE7D90070D737 /* Crypto Wallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07939EFA204FE7D90070D737 /* Crypto Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				07D4B386205BA571001BE055 /* SWRevealViewController */,
+				07939EFB204FE7D90070D737 /* AppDelegate.swift */,
+				07939F0D204FEC380070D737 /* SignInViewController.swift */,
+				07939F0F20500CD30070D737 /* SignUpViewController.swift */,
+				07939F11205011B70070D737 /* ForgotPasswordViewController.swift */,
+				0784B047205934F600C2CE5C /* WalletViewController.swift */,
+				071EBCC8205A47850093680E /* SendConfirmationViewController.swift */,
+				071EBCCA205A82B30093680E /* SettingsViewController.swift */,
+				07D4B38B205BB96E001BE055 /* SideMenuViewController.swift */,
+				0751A1BD20611A27000AA6EB /* ScanViewController.swift */,
+				07939EFF204FE7D90070D737 /* Main.storyboard */,
+				07939F02204FE7D90070D737 /* Assets.xcassets */,
+				07939F04204FE7D90070D737 /* LaunchScreen.storyboard */,
+				07939F07204FE7D90070D737 /* Info.plist */,
+			);
+			path = "Crypto Wallet";
+			sourceTree = "<group>";
+		};
+		07D4B386205BA571001BE055 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07D4B389205BA62A001BE055 /* SWRevealViewController.h */,
+				07D4B388205BA62A001BE055 /* SWRevealViewController.m */,
+				07D4B387205BA629001BE055 /* Crypto Wallet-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07939EF7204FE7D90070D737 /* Crypto Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07939F0A204FE7D90070D737 /* Build configuration list for PBXNativeTarget "Crypto Wallet" */;
+			buildPhases = (
+				07939EF4204FE7D90070D737 /* Sources */,
+				07939EF5204FE7D90070D737 /* Frameworks */,
+				07939EF6204FE7D90070D737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crypto Wallet";
+			productName = "Crypto Wallet";
+			productReference = 07939EF8204FE7D90070D737 /* Crypto Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07939EF0204FE7D90070D737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Setup Technology";
+				TargetAttributes = {
+					07939EF7204FE7D90070D737 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 07939EF3204FE7D90070D737 /* Build configuration list for PBXProject "Crypto Wallet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07939EEF204FE7D90070D737;
+			productRefGroup = 07939EF9204FE7D90070D737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07939EF7204FE7D90070D737 /* Crypto Wallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07939EF6204FE7D90070D737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07939F06204FE7D90070D737 /* LaunchScreen.storyboard in Resources */,
+				07939F03204FE7D90070D737 /* Assets.xcassets in Resources */,
+				07939F01204FE7D90070D737 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07939EF4204FE7D90070D737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07939F12205011B70070D737 /* ForgotPasswordViewController.swift in Sources */,
+				071EBCC9205A47850093680E /* SendConfirmationViewController.swift in Sources */,
+				071EBCCB205A82B30093680E /* SettingsViewController.swift in Sources */,
+				07D4B38A205BA62A001BE055 /* SWRevealViewController.m in Sources */,
+				07939F1020500CD40070D737 /* SignUpViewController.swift in Sources */,
+				07939EFC204FE7D90070D737 /* AppDelegate.swift in Sources */,
+				07939F0E204FEC380070D737 /* SignInViewController.swift in Sources */,
+				0751A1BE20611A27000AA6EB /* ScanViewController.swift in Sources */,
+				07D4B38C205BB96E001BE055 /* SideMenuViewController.swift in Sources */,
+				0784B048205934F600C2CE5C /* WalletViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07939EFF204FE7D90070D737 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07939F00204FE7D90070D737 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07939F04204FE7D90070D737 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07939F05204FE7D90070D737 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07939F08204FE7D90070D737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07939F09204FE7D90070D737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07939F0B204FE7D90070D737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FQ42Q5XPM;
+				INFOPLIST_FILE = "Crypto Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technology.setup.Crypto-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Crypto Wallet/SWRevealViewController/Crypto Wallet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07939F0C204FE7D90070D737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FQ42Q5XPM;
+				INFOPLIST_FILE = "Crypto Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technology.setup.Crypto-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Crypto Wallet/SWRevealViewController/Crypto Wallet-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07939EF3204FE7D90070D737 /* Build configuration list for PBXProject "Crypto Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07939F08204FE7D90070D737 /* Debug */,
+				07939F09204FE7D90070D737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07939F0A204FE7D90070D737 /* Build configuration list for PBXNativeTarget "Crypto Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07939F0B204FE7D90070D737 /* Debug */,
+				07939F0C204FE7D90070D737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07939EF0204FE7D90070D737 /* Project object */;
+}
